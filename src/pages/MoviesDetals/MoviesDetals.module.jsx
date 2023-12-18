@@ -5,8 +5,6 @@ export const GoBackLink = styled.span`
     position: relative;
     padding-left: 12px;
   }
-
-  
 `;
 
 export const FilmWrapper = styled.div`
@@ -59,6 +57,4 @@ export const ListItem = styled.li`
   span {
     color: #1d66c5;
   }
-
-
 `;

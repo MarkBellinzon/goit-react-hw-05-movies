@@ -23,9 +23,10 @@ import {
 const MoviesDetails = () => {
   const { movieId } = useParams();
   const [movie, setMovie] = useState('');
-  const location = useLocation();
 
+  const location = useLocation();
   const backLinkHref = location.state?.from ?? '/movies';
+
   useEffect(() => {
     const fetchMovieById = async () => {
       try {
@@ -41,10 +42,9 @@ const MoviesDetails = () => {
   return (
     <>
       <GoBackLink>
-        <Link to={backLinkHref}>
-          Go back<span>.</span>
-        </Link>
+        <Link to={backLinkHref}>Go back</Link>
       </GoBackLink>
+
       <FilmWrapper>
         <FilmImg
           src={`${
@@ -72,12 +72,12 @@ const MoviesDetails = () => {
         <StyledList>
           <ListItem>
             <NavLink to="cast" state={location.state}>
-              Cast<span>.</span>
+              Cast
             </NavLink>
           </ListItem>
           <ListItem>
             <NavLink to="reviews" state={location.state}>
-              Reviews<span>.</span>
+              Reviews
             </NavLink>
           </ListItem>
         </StyledList>

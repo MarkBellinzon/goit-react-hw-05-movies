@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
-
 import { getTrendingMovies } from 'helpers/getMovies';
-
 import FilmsList from 'components/FilmsList/FilmsList';
 
 const Home = () => {
