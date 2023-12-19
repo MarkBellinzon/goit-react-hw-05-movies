@@ -18,7 +18,8 @@ const SharedLayout = () => {
               <span>
                 the movie is something incredible...Cinema is life, where the
                 most boring scenes were cut out..only $5 per ticket and you will
-                stop being bored
+                stop being bored...... Oleksii Korotenko ✌ 
+ 
               </span>
             </h1>
           </NavList>

@@ -42,7 +42,7 @@ const MoviesDetails = () => {
   return (
     <>
       <GoBackLink>
-        <Link to={backLinkHref}>Go back</Link>
+        <Link to={backLinkHref}> Go back</Link>
       </GoBackLink>
 
       <FilmWrapper>

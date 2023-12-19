@@ -4,7 +4,19 @@ export const GoBackLink = styled.span`
   a {
     position: relative;
     padding-left: 12px;
+    padding-right: 12px;
+   
+     border: #f71111;
+     font-weight: 64px;
   }
+  color: #ffffff;
+margin-bottom: 20px;
+  box-shadow: 0 0 5px #ee2b2b, 0 0 20px #ee2b2b, 0 0 40px #ee2b2b,
+    0 0 200px #ee2b2b;
+  -moz-transition: background-color 0.8s 0.1s ease;
+  -o-transition: background-color 0.8s 0.1s ease;
+  -webkit-transition: background-color 0.8s 0.1s ease;
+ background-color: #d60e0e;
 `;
 
 export const FilmWrapper = styled.div`
