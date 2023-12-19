@@ -16,8 +16,8 @@ export const ItemFilms = styled.li`
 
 export const Links = styled(Link)`
   text-decoration: none;
-  color: #cf4b4b;
-  :hover {
+  color: #ffffff;
+   :hover {
     color: #1d66c5;
     text-shadow: 1px 1px 2px #0e2a50;
   }
@@ -28,8 +28,10 @@ export const Card = styled.div`
   flex-direction: column;
   text-align: center;
   width: 200px;
-  height: 355px;
+  height: 300px;
+  margin-bottom: 20px;
   transition: all 0.5s ease-in;
+  /* border: 1px solid #ffffff; */
 
   :hover {
     scale: 1.05;
