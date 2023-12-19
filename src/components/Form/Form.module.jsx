@@ -20,15 +20,16 @@ export const InputSearch = styled.input`
 `;
 
 export const ButtonSearch = styled.button`
-font - weit: 500;
-font - size: 18px;
-line-heght: 27px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 
-margin-left: 12px;
-padding: 15px 16px;
-color: rgba(149, 227, 233, 0.2);
+  margin-left: 12px;
+  padding: 15px 16px;
 
- background: #2b2b2b;
+  color: rgba(149, 227, 233, 0.2);
+
+  background: #2b2b2b;
   border-radius: 10px;
   cursor: pointer;
 
@@ -36,5 +37,5 @@ color: rgba(149, 227, 233, 0.2);
   :focus,
   :not(:disabled):hover {
     color: #1d66c5;
-
+  }
 `;

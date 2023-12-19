@@ -8,18 +8,19 @@ const SharedLayout = () => {
       <header>
         <Navigation>
           <NavList>
-         
             <NavItem>
-              <Link to="/">
-                Home<span>.</span>
-              </Link>
+              <Link to="/">Home</Link>
             </NavItem>
             <NavItem>
-              <Link to="/movies">
-                Movies<span>.</span>
-              </Link>
+              <Link to="/movies">Movies</Link>
             </NavItem>
-            <h1 class="marquee"><span>the movie is something incredible...Cinema is life, where the most boring scenes were cut out..only $5 per ticket and you will stop being bored</span></h1>
+            <h1 class="marquee">
+              <span>
+                the movie is something incredible...Cinema is life, where the
+                most boring scenes were cut out..only $5 per ticket and you will
+                stop being bored
+              </span>
+            </h1>
           </NavList>
         </Navigation>
       </header>

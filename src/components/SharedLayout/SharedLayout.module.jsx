@@ -13,7 +13,7 @@ export const NavList = styled.ul`
   font-size: 30px;
 
   display: flex;
-  gap: 10px;
+  gap: 30px;
   padding: 14px;
 
   /* background-image: url('/public/77M1.gif'); */
