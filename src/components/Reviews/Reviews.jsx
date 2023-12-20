@@ -1,7 +1,7 @@
 import { getReviewsMovie } from 'helpers/getMovies';
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { StyleSheetList, ListItem, ReviewsDescr } from './Reviews.module';
+import { StyledList, ListItem, ReviewsDescr } from './Reviews.module';
 
 const Reviews = () => {
   const { movieId } = useParams();
@@ -22,7 +22,7 @@ const Reviews = () => {
   return reviews.length === 0 ? (
     <h3>No Reviews</h3>
   ) : (
-    <StyleSheetList>
+    <StyledList>
       {reviews.map(({ id, author, content }) => (
         <ListItem>
           <p>
@@ -31,7 +31,7 @@ const Reviews = () => {
           <ReviewsDescr>{content}</ReviewsDescr>
         </ListItem>
       ))}
-    </StyleSheetList>
+    </StyledList>
   );
 };
 

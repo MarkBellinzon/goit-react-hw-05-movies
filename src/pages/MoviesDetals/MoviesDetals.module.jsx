@@ -28,7 +28,7 @@ export const FilmWrapper = styled.div`
 
 export const FilmImg = styled.img`
   max-width: 182px;
-  background: #424242;
+  background: #969494;
   border-radius: 15px;
 `;
 
@@ -44,7 +44,7 @@ export const FilmSubTitle = styled.h3`
 
 export const FilmDescr = styled.p`
   font-size: 16px;
-  color: #888888;
+  color: #aaa8a8;
   margin-bottom: 12px;
 `;
 
@@ -55,7 +55,7 @@ export const StyledListDescr = styled.ul`
   padding: 0;
 
   border-radius: 20px;
-  color: #888888;
+  color: #aaa8a8;
   margin-bottom: 12px;
 `;
 export const StyledList = styled.ul`

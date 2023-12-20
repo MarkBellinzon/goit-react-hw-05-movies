@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 export const ListFilms = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  /* gap: 20px; */
   padding: 0;
   margin: 0;
 `;
