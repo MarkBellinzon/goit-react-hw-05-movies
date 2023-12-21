@@ -17,7 +17,7 @@ const SharedLayout = () => {
             </NavItem>
             <h1 class="marquee">
               <span>
-               Щодо зараз, є бажання $5 викласти? 🎅.....Mary Christmas, Oleksii ✌ !!
+               Щодо зараз, є бажання $5 викласти? 🎅.....Marry Christmas, Oleksii ✌ !!
  
               </span>
             </h1>
