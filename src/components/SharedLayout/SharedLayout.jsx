@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import { Container, NavItem, NavList, Navigation } from './SharedLayout.module';
+// import { PageNotFound } from '../../pages/PageNotFound/PageNotFound';
 
 const SharedLayout = () => {
   return (
@@ -25,6 +26,7 @@ const SharedLayout = () => {
           </NavList>
         </Navigation>
       </header>
+          
       <Suspense fallback={<div>Loading page...</div>}>
         <Outlet />
       </Suspense>
