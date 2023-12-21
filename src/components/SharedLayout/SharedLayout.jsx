@@ -17,9 +17,7 @@ const SharedLayout = () => {
             </NavItem>
             <h1 class="marquee">
               <span>
-                the movie is something incredible...Cinema is life, where the
-                most boring scenes were cut out..only $5 per ticket and you will
-                stop being bored...... Oleksii Korotenko ✌ 
+               Щодо зараз, є бажання $5 викласти? 🎅.....Mary Christmas, Oleksii ✌ !!
  
               </span>
             </h1>
